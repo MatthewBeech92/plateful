@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="36" viewBox="0 0 18 36">
+  <g id="Back_Button_Sprite" data-name="Back Button Sprite" transform="translate(-16 -108)">
+    <path id="Back_Button_Icon" data-name="Back Button Icon" d="M9.25,4.25a9,9,0,0,0,9-9,9,9,0,0,0-9-9,9,9,0,0,0-9,9A9,9,0,0,0,9.25,4.25Zm4.21-10.6a.437.437,0,0,1,.435.435v2.323a.437.437,0,0,1-.435.435H9.25V-.584a.435.435,0,0,1-.744.308L4.358-4.445a.432.432,0,0,1,0-.613l4.148-4.17a.436.436,0,0,1,.744.308v2.573Z" transform="translate(15.75 121.75)" fill="#132d39"/>
+    <path id="Back_Button_Icon-2" data-name="Back Button Icon" d="M9.25,4.25a9,9,0,0,0,9-9,9,9,0,0,0-9-9,9,9,0,0,0-9,9A9,9,0,0,0,9.25,4.25Zm4.21-10.6a.437.437,0,0,1,.435.435v2.323a.437.437,0,0,1-.435.435H9.25V-.584a.435.435,0,0,1-.744.308L4.358-4.445a.432.432,0,0,1,0-.613l4.148-4.17a.436.436,0,0,1,.744.308v2.573Z" transform="translate(15.75 139.75)" fill="#367da1"/>
+  </g>
+</svg>

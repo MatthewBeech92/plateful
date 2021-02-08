@@ -1,0 +1,3432 @@
+ ERROR  Failed to compile with 2 errors1:39:08 AM
+
+This relative module was not found:
+
+* ./file.handlebars in ./resources/js/app.js, ./resources/js/mealplans.js
+{
+  "errors": [
+    "./resources/js/app.js\nModule not found: Error: Can't resolve './file.handlebars' in '/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js'\n @ ./resources/js/app.js 1:15-43\n @ multi ./resources/js/app.js ./resources/sass/app.scss",
+    "./resources/js/mealplans.js\nModule not found: Error: Can't resolve './file.handlebars' in '/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js'\n @ ./resources/js/mealplans.js 3:15-43\n @ ./resources/js/app.js\n @ multi ./resources/js/app.js ./resources/sass/app.scss"
+  ],
+  "warnings": [],
+  "outputPath": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/public",
+  "assetsByChunkName": {
+    "/js/app": [
+      "/js/app.js",
+      "/css/app.css"
+    ]
+  },
+  "assets": [
+    {
+      "name": "/css/app.css",
+      "size": 54087,
+      "chunks": [
+        "/js/app"
+      ],
+      "chunkNames": [
+        "/js/app"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/js/app.js",
+      "size": 649825,
+      "chunks": [
+        "/js/app"
+      ],
+      "chunkNames": [
+        "/js/app"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "/js/app": {
+      "chunks": [
+        "/js/app"
+      ],
+      "assets": [
+        "/js/app.js",
+        "/css/app.css"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+      "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+      "index": 0,
+      "index2": 47,
+      "size": 40,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 1,
+        "building": 5
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "id": "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/sass/app.scss",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+      "name": "./node_modules/css-loader??ref--5-2!./node_modules/postcss-loader/src??postcss0!./node_modules/sass-loader/dist/cjs.js??ref--5-4!./resources/sass/app.scss",
+      "index": 44,
+      "index2": 43,
+      "size": 57732,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/index.js!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+      "issuerId": "./resources/sass/app.scss",
+      "issuerName": "./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": "./resources/sass/app.scss",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/index.js!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        }
+      ],
+      "profile": {
+        "factory": 739,
+        "building": 1594
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./node_modules/css-loader/lib/css-base.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "index": 45,
+      "index2": 42,
+      "size": 2260,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+      "issuerId": "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/sass/app.scss",
+      "issuerName": "./node_modules/css-loader??ref--5-2!./node_modules/postcss-loader/src??postcss0!./node_modules/sass-loader/dist/cjs.js??ref--5-4!./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": "./resources/sass/app.scss",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/index.js!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        },
+        {
+          "id": "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/sass/app.scss",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "./node_modules/css-loader??ref--5-2!./node_modules/postcss-loader/src??postcss0!./node_modules/sass-loader/dist/cjs.js??ref--5-4!./resources/sass/app.scss",
+          "profile": {
+            "factory": 739,
+            "building": 1594
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "index": 10,
+      "index2": 38,
+      "size": 4900,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+      "issuerId": "./resources/js/recipes.js",
+      "issuerName": "./resources/js/recipes.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        }
+      ],
+      "profile": {
+        "factory": 29,
+        "building": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "index": 11,
+      "index2": 28,
+      "size": 4606,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 84,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "index": 12,
+      "index2": 23,
+      "size": 9636,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 45,
+        "building": 85,
+        "dependencies": 31
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js",
+      "index": 33,
+      "index2": 29,
+      "size": 3425,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 84,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "index": 34,
+      "index2": 34,
+      "size": 3926,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 84,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js",
+      "index": 41,
+      "index2": 36,
+      "size": 15857,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 78,
+        "building": 14,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js",
+      "index": 39,
+      "index2": 35,
+      "size": 58116,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 84,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js",
+      "index": 38,
+      "index2": 33,
+      "size": 19212,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 37,
+        "building": 185,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js",
+      "index": 40,
+      "index2": 37,
+      "size": 121248,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 84,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js",
+      "index": 35,
+      "index2": 30,
+      "size": 205666,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 37,
+        "building": 185,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js",
+      "index": 37,
+      "index2": 31,
+      "size": 12631,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 84,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js",
+      "index": 36,
+      "index2": 32,
+      "size": 23162,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/compiler/base.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 37,
+        "building": 185,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+      "index": 24,
+      "index2": 19,
+      "size": 1000,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        }
+      ],
+      "profile": {
+        "factory": 77,
+        "building": 17,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 6
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/decorators/inline.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/decorators/inline.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/decorators/inline.js",
+      "index": 25,
+      "index2": 18,
+      "size": 2696,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/decorators.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 69,
+        "building": 7,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/exception.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/exception.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/exception.js",
+      "index": 14,
+      "index2": 8,
+      "size": 5950,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 45,
+        "building": 85,
+        "dependencies": 31
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "index": 15,
+      "index2": 17,
+      "size": 3909,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        }
+      ],
+      "profile": {
+        "factory": 77,
+        "building": 17,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 6
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers/block-helper-missing.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers/block-helper-missing.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers/block-helper-missing.js",
+      "index": 16,
+      "index2": 9,
+      "size": 3831,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 70,
+        "building": 12,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers/each.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers/each.js",
+      "index": 17,
+      "index2": 11,
+      "size": 9894,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 70,
+        "building": 12,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js",
+      "index": 19,
+      "index2": 12,
+      "size": 2013,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 70,
+        "building": 12,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers/if.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers/if.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers/if.js",
+      "index": 20,
+      "index2": 13,
+      "size": 4458,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 70,
+        "building": 12,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers/log.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers/log.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers/log.js",
+      "index": 21,
+      "index2": 14,
+      "size": 2507,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 70,
+        "building": 12,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js",
+      "index": 22,
+      "index2": 15,
+      "size": 1244,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 70,
+        "building": 12,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers/with.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers/with.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers/with.js",
+      "index": 23,
+      "index2": 16,
+      "size": 3759,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/helpers.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 70,
+        "building": 12,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js",
+      "index": 28,
+      "index2": 21,
+      "size": 1783,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+          "profile": {
+            "factory": 77,
+            "building": 17,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 57,
+        "building": 11,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js",
+      "index": 27,
+      "index2": 22,
+      "size": 8678,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        }
+      ],
+      "profile": {
+        "factory": 77,
+        "building": 17,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 6
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/internal/wrapHelper.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/internal/wrapHelper.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/internal/wrapHelper.js",
+      "index": 31,
+      "index2": 25,
+      "size": 2192,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 14
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 6
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/logger.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/logger.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/logger.js",
+      "index": 26,
+      "index2": 20,
+      "size": 3883,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/base.js",
+          "profile": {
+            "factory": 45,
+            "building": 85,
+            "dependencies": 31
+          }
+        }
+      ],
+      "profile": {
+        "factory": 77,
+        "building": 17,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 6
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+      "index": 32,
+      "index2": 27,
+      "size": 1532,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 84,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/runtime.js",
+      "index": 30,
+      "index2": 26,
+      "size": 44682,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 45,
+        "building": 85,
+        "dependencies": 31
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/safe-string.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/safe-string.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/safe-string.js",
+      "index": 29,
+      "index2": 24,
+      "size": 1164,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 45,
+        "building": 85,
+        "dependencies": 31
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/handlebars/dist/cjs/handlebars/utils.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/utils.js",
+      "name": "./node_modules/handlebars/dist/cjs/handlebars/utils.js",
+      "index": 13,
+      "index2": 7,
+      "size": 10309,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.runtime.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 45,
+        "building": 85,
+        "dependencies": 31
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./node_modules/style-loader/lib/addStyles.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "index": 46,
+      "index2": 45,
+      "size": 10399,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/index.js!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+      "issuerId": "./resources/sass/app.scss",
+      "issuerName": "./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": "./resources/sass/app.scss",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/index.js!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        }
+      ],
+      "profile": {
+        "factory": 739,
+        "building": 1594
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./node_modules/style-loader/lib/urls.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "index": 47,
+      "index2": 44,
+      "size": 3013,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/lib/addStyles.js",
+      "issuerId": "./node_modules/style-loader/lib/addStyles.js",
+      "issuerName": "./node_modules/style-loader/lib/addStyles.js",
+      "issuerPath": [
+        {
+          "id": "./resources/sass/app.scss",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/index.js!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        },
+        {
+          "id": "./node_modules/style-loader/lib/addStyles.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/lib/addStyles.js",
+          "name": "./node_modules/style-loader/lib/addStyles.js",
+          "profile": {
+            "factory": 739,
+            "building": 1594
+          }
+        }
+      ],
+      "profile": {
+        "factory": 15,
+        "building": 15
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/webpack/buildin/global.js",
+      "name": "(webpack)/buildin/global.js",
+      "index": 18,
+      "index2": 10,
+      "size": 472,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+      "issuerId": "./node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+      "issuerName": "./node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        },
+        {
+          "id": "./resources/js/recipes.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+          "name": "./resources/js/recipes.js",
+          "profile": {
+            "factory": 43,
+            "building": 72,
+            "dependencies": 7
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars.js",
+          "profile": {
+            "factory": 29,
+            "building": 4
+          }
+        },
+        {
+          "id": "./node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+          "name": "./node_modules/handlebars/dist/cjs/handlebars/no-conflict.js",
+          "profile": {
+            "factory": 15,
+            "building": 84,
+            "dependencies": 36
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "id": "./resources/js/app.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "name": "./resources/js/app.js",
+      "index": 1,
+      "index2": 41,
+      "size": 252,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+      "issuerId": 0,
+      "issuerName": "multi ./resources/js/app.js ./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        }
+      ],
+      "profile": {
+        "factory": 65,
+        "building": 822
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "./resources/js/forms.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/forms.js",
+      "name": "./resources/js/forms.js",
+      "index": 3,
+      "index2": 1,
+      "size": 3043,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/ingredients.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/ingredients.js",
+      "name": "./resources/js/ingredients.js",
+      "index": 8,
+      "index2": 6,
+      "size": 1117,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/listbox.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/listbox.js",
+      "name": "./resources/js/listbox.js",
+      "index": 5,
+      "index2": 3,
+      "size": 1444,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/login.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/login.js",
+      "name": "./resources/js/login.js",
+      "index": 6,
+      "index2": 4,
+      "size": 1125,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/mealplans.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/mealplans.js",
+      "name": "./resources/js/mealplans.js",
+      "index": 42,
+      "index2": 40,
+      "size": 9173,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/nav.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/nav.js",
+      "name": "./resources/js/nav.js",
+      "index": 7,
+      "index2": 5,
+      "size": 1809,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/paginator.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/paginator.js",
+      "name": "./resources/js/paginator.js",
+      "index": 4,
+      "index2": 2,
+      "size": 34,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/recipes.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/recipes.js",
+      "name": "./resources/js/recipes.js",
+      "index": 9,
+      "index2": 39,
+      "size": 6911,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/js/register.js",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/register.js",
+      "name": "./resources/js/register.js",
+      "index": 2,
+      "index2": 0,
+      "size": 1117,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "/js/app"
+      ],
+      "issuer": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+      "issuerId": "./resources/js/app.js",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js /Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 1,
+            "building": 5
+          }
+        },
+        {
+          "id": "./resources/js/app.js",
+          "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 65,
+            "building": 822
+          }
+        }
+      ],
+      "profile": {
+        "factory": 43,
+        "building": 72,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./resources/sass/app.scss",
+      "identifier": "/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/style-loader/index.js!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/css-loader/index.js??ref--5-2!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/postcss-loader/src/index.js??postcss0!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/node_modules/sass-loader/dist/cjs.js??ref--5-4!/Users/matthewbeech/Documents/WebProjects/laravel/food-diary/resources/sass/app.scss",
+      "name": "./resources/sass/app.scss",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  }
+}

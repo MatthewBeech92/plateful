@@ -1,0 +1,278 @@
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    display: block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border-radius: $border-radius;
+    padding: 0.75rem 1rem;
+    border: 2px solid;
+    width: 100%;
+    max-width: 432px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: $primary-300;
+    border-color: $primary-300;
+
+    &:hover {
+        background-color: $primary-400;
+        border: 2px solid $primary-400;
+    }
+    &:focus {
+        background-color: $primary-400;
+        box-shadow: 0px 0px 4px $primary-400;
+        outline: none;
+        border-color: transparent;
+    }
+
+    &:active {
+        box-shadow: 0px 0px 4px $primary-400;
+    }
+}
+
+.btn-secondary {
+    color: $primary-300;
+    background-color: white;
+    border-color: $primary-300;
+
+    &:hover {
+        color: $primary-400;
+        border-color: $primary-400;
+    }
+    &:focus {
+        color: $primary-400;
+        border-color: $primary-400;
+        box-shadow: 0px 0px 4px $primary-400;
+        outline: none;
+    }
+    &:active {
+        color: $primary-400;
+        border-color: $primary-400;
+        box-shadow: 0px 0px 4px $primary-400;
+        outline: none;
+    }
+}
+
+.btn-tertiary {
+    font-size: 1rem;
+    color: $primary-500;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+
+    &:hover {
+        color: $primary-300;
+    }
+    &:focus {
+        color: $primary-500;
+        text-decoration: underline;
+        outline: none;
+    }
+    &:active {
+        text-decoration: none;
+        color: $primary-500;
+    }
+}
+
+.btn-small {
+    color: $neutral-100;
+    background-color: $primary-300;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: $border-radius;
+    border-color: $primary-300;
+
+    &:hover {
+        color: $neutral-100;
+        background-color: $primary-400;
+        border-color: $primary-400;
+    }
+
+    &:focus {
+        background-color: $primary-400;
+        box-shadow: 0px 0px 4px $primary-400;
+        outline: none;
+        border-color: transparent;
+    }
+
+    &:active {
+        box-shadow: 0px 0px 4px $primary-400;
+    }
+}
+
+.delete-btn {
+    background-color: $error-300;
+    border-color: $error-300;
+
+    &:hover {
+        background-color: $error-400;
+        border-color: $error-400;
+    }
+
+    &:focus {
+        background-color: $error-400;
+        box-shadow: 0px 0px 4px $error-400;
+    }
+
+    &:active {
+        background-color: $error-500;
+        box-shadow: 0px 0px 4px $error-500;
+        border-color: $error-500;
+    }
+}
+
+.add-btn {
+    color: $white;
+    background-color: $primary-300;
+    font-size: 0.833rem;
+    padding: 0.5rem;
+    border-radius: $border-radius;
+
+    &:hover {
+        color: $white;
+        background-color: $primary-400;
+    }
+
+    &:focus {
+        background-color: $primary-400;
+        box-shadow: 0px 0px 5px $primary-400;
+        outline: none;
+        border-color: transparent;
+    }
+
+    &:active {
+        box-shadow: 0px 0px 5px $primary-400;
+    }
+}
+
+.labelled-icon {
+    color: #fff !important;
+    background-color: $primary-300;
+    border: 0;
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    width: unset;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 1rem center;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+/*
+.back-btn-wrapper {
+    height: 20px;
+    margin-bottom: 1.5rem;
+    max-width: 432px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    hr {
+        margin-top: 0.5rem;
+    }
+
+    .back-btn {
+        background-image: url(../images/icons/back-btn-sprite.svg);
+        background-repeat: no-repeat;
+        background-size: 19px;
+        padding-left: 23px;
+        text-align: left;
+        box-sizing: border-box;
+
+        &:hover,
+        &:focus {
+            color: $primary-300 !important;
+            background-position: 0 100%;
+            text-decoration: none !important;
+        }
+
+        &:active {
+            background-position: 0 0;
+        }
+    }
+}
+*/
+
+.back-btn {
+    background-image: url(../images/icons/back-btn-sprite.svg);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    height: 19px;
+    padding-left: 23px;
+    text-align: left;
+    box-sizing: border-box;
+
+    &:hover,
+    &:focus {
+        color: $primary-300 !important;
+        background-position: 0 100%;
+        text-decoration: none !important;
+    }
+
+    &:active {
+        background-position: 0 0;
+    }
+}
+
+.add {
+    background-image: url(../images/icons/add-basic.svg);
+}
+
+.btn-icon {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+}
+
+.cross-icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+    opacity: 0.5;
+    border: none;
+    cursor: pointer;
+    background: url(../images/icons/cross.svg) center center no-repeat;
+    background-size: contain;
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+        outline: none;
+    }
+}
+
+.cross-icon-white {
+    background: url(../images/icons/cross-white.svg) center center no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+    }
+}
+
+.edit-icon {
+    background: url(../images/icons/edit-sprite.svg) no-repeat;
+    height: 16px;
+    width: 16px;
+}

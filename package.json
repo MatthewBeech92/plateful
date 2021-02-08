@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "compiler": "node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js  --profile --json > stats.json",
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disableHostCheck=true --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "browser-sync": "^2.26.7",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "cross-env": "^6.0",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "eslint-plugin-prettier": "^3.1.2",
+        "handlebars-loader": "^1.7.1",
+        "jquery": "^3.4",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.15",
+        "node-sass": "^4.13.0",
+        "prettier": "^2.1.2",
+        "resolve-url-loader": "^3.1.1",
+        "sass": "^1.23.7",
+        "sass-loader": "^8.0.0",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "handlebars": "^4.7.6",
+        "paginationjs": "^2.1.5"
+    }
+}

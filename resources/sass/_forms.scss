@@ -1,0 +1,509 @@
+form {
+    label {
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-inline-size: unset;
+
+        header {
+            margin-bottom: 1.5rem;
+            text-align: center;
+
+            h2 {
+                margin: 0 auto;
+            }
+        }
+
+        .fieldset-next-div {
+            text-align: right;
+        }
+
+        & > div {
+            width: 100%;
+            max-width: 432px;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+
+            &:last-child {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        & > button {
+            margin: 0 auto;
+        }
+    }
+
+    & > div {
+        margin-bottom: 1rem;
+    }
+
+    & > div:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+/*
+*
+* Form Layout Styles
+*
+*/
+
+.form-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.responsive-input {
+    & > div {
+        margin-bottom: 1rem;
+    }
+
+    & > div:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.form-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+// Progress Bar Layout
+#progress-bar-container {
+    position: relative;
+    z-index: 1;
+
+    .progress-bar {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        width: 276px;
+
+        li {
+            display: flex;
+            position: relative;
+            font-size: 0;
+
+            &:before {
+                position: relative;
+                content: '';
+                background-color: $white;
+                border: 2px solid $primary-300;
+                box-sizing: border-box;
+                width: 44px;
+                height: 44px;
+                border-radius: 2rem;
+                z-index: -1;
+            }
+
+            &.active:before {
+                background-color: $primary-300;
+            }
+
+            &:not(:last-child):after {
+                position: absolute;
+                content: '';
+                height: 2px;
+                width: 64px;
+                top: 21px;
+                left: 48px;
+                background-color: $primary-300;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+/*
+*
+* Form Element Styles
+*
+*/
+
+.search-form {
+    margin: 0 auto 1.5rem;
+    max-width: 432px;
+    width: 100%;
+}
+
+// Input Element
+.input-box {
+    width: 100%;
+    max-width: 432px;
+    font-size: 1rem;
+    border: 2px solid $primary-500;
+    border-radius: $border-radius;
+    outline: none;
+    padding: 0.75rem;
+    margin: 0;
+    box-sizing: border-box;
+    font: unset;
+
+    @include placeholder() {
+        color: $primary-500;
+        font-style: italic;
+        opacity: 1;
+    }
+
+    &.search {
+        display: block;
+        background: url(../images/icons/magnifying-glass.svg) 0.5rem center no-repeat;
+        background-color: #fff;
+        padding-left: 36px;
+        max-width: 432px;
+        font-style: normal;
+        margin: 0 auto;
+
+        @include placeholder() {
+            font-style: normal;
+        }
+    }
+
+    &:focus {
+        box-shadow: $box-shadow;
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: $primary-500;
+    box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+// Checkboxes
+.custom-checkbox {
+    input {
+        position: absolute;
+        opacity: 0;
+        margin: 0;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+
+        &:focus ~ * {
+            color: $primary-300;
+        }
+    }
+
+    span:before {
+        content: '';
+        display: inline-block;
+        background: url(../images/icons/checkbox.svg) no-repeat;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    input:checked ~ span:before {
+        background: url(../images/icons/checkbox-checked.svg) left no-repeat;
+    }
+
+    label {
+        font-size: 0.889rem;
+        display: inline-block;
+        margin: 0 0 0 0.25rem;
+        cursor: pointer;
+    }
+}
+
+// Select, Multiple Select & Combobox Elements
+.custom-select,
+.multiple-select,
+.btn-select {
+    select {
+        display: none;
+    }
+
+    .styled-select {
+        position: relative;
+        width: 100%;
+        max-width: 432px;
+        font-size: 1rem;
+        min-height: 43px;
+        height: 100%;
+        border: 2px solid $primary-500;
+        border-radius: $border-radius;
+        padding: 0.75rem;
+        box-sizing: border-box;
+        outline: none;
+        appearance: none;
+        background: url(../images/icons/chevron-down.svg) right 0.5rem center no-repeat;
+        background-color: #fff;
+        font: unset;
+        cursor: pointer;
+        -webkit-user-select: none;
+
+        &:focus {
+            box-shadow: $box-shadow;
+        }
+    }
+
+    .listbox {
+        display: none;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.custom-select,
+.multiple-select,
+.btn-select,
+.combobox {
+    position: relative;
+
+    .listbox {
+        position: absolute;
+        width: 100%;
+        list-style: none;
+        background-color: #fff;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0.5rem 0 1.5rem 0;
+        z-index: 999;
+        max-height: 191px;
+        overflow: scroll;
+        user-select: none;
+
+        &:focus {
+            outline: none;
+            border-radius: $border-radius;
+        }
+
+        li {
+            position: relative;
+            margin: 0 0.5rem;
+            padding: 0.5rem;
+            border-radius: $border-radius;
+            cursor: pointer;
+
+            &:first-child {
+                margin-top: 0.5rem;
+            }
+
+            &:last-child {
+                margin-bottom: 0.5rem;
+            }
+
+            &:hover,
+            &:focus {
+                outline: none;
+                // background-color: $primary-300;
+                // color: $white;
+                // border-radius: $border-radius;
+            }
+
+            &.option-focused {
+                background-color: $primary-300;
+                color: $white;
+                border-radius: $border-radius;
+            }
+        }
+    }
+}
+
+.custom-select {
+    .option-selected {
+        font-weight: bold;
+        color: $primary-300;
+    }
+}
+
+.multiple-select {
+    .styled-select {
+        padding: 0 2rem 0.5rem 0;
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            position: relative;
+            list-style: none;
+            background-color: $primary-300;
+            color: $white;
+            padding: 0 0.5rem;
+            margin: 0.5rem 0 0 0.5rem;
+            height: 27px;
+            line-height: 27px;
+            border-radius: $border-radius;
+
+            span {
+                text-transform: capitalize;
+                margin-right: 0.5rem;
+            }
+
+            .cross-icon-white {
+                height: 10px;
+                width: 10px;
+            }
+        }
+    }
+
+    .option-selected {
+        cursor: default;
+        color: $neutral-300;
+    }
+}
+
+.btn-select > .styled-select {
+    background-color: $primary-300;
+}
+
+// Textareas
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 432px;
+    border-radius: $border-radius;
+    border: 2px solid $primary-500;
+    box-sizing: border-box;
+    resize: none;
+    padding: 1rem;
+    font: unset;
+
+    &:focus {
+        outline: none;
+        border-color: $primary-500;
+        box-shadow: $box-shadow;
+    }
+}
+
+// File Uploads
+.upload {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    input[type='file'] {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .upload-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 1rem;
+        color: $white;
+        background-color: $primary-300;
+        border: none;
+        padding: 0.75rem 0.5rem 0.75rem 35px;
+        margin-bottom: 0;
+        border-radius: $border-radius;
+        cursor: pointer;
+
+        img {
+            margin-right: 0.25rem;
+        }
+    }
+}
+
+/*
+*
+* Form Error Styles
+*
+*/
+
+.input-error,
+.input-error:focus {
+    border: 2px solid $error-300 !important;
+}
+
+.error-feedback {
+    display: block;
+    color: $error-300;
+    margin-top: 0.5rem;
+}
+
+.upload-errors {
+    color: $error-300;
+    margin-top: 1rem;
+    padding-left: 21px;
+
+    li:not(:last-child) {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@include screen-min(sm) {
+    form fieldset header {
+        margin-bottom: 2rem;
+    }
+
+    /*
+    *
+    * Form Layout Styles
+    *
+    */
+
+    .form-layout {
+        padding: 3rem 4rem;
+        box-shadow: $box-shadow;
+        border-radius: $border-radius;
+        background-color: $white;
+        box-sizing: border-box;
+        max-width: 560px;
+    }
+
+    .responsive-input {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(204px, 1fr));
+        column-gap: 1.5rem;
+    }
+
+    // Progress Bar Layout
+    #progress-bar-container .progress-bar {
+        width: 428px;
+
+        li {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: 1rem;
+            width: 100px;
+
+            &:before {
+                margin-bottom: 0.5rem;
+            }
+
+            &:not(:last-child):after {
+                width: 104px;
+                top: 21px;
+                left: 80px;
+            }
+        }
+    }
+}
+
+@include screen-min(lg) {
+    .search-form {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,38 @@
+@mixin placeholder() {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+    &::-moz-placeholder {
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+    &::-ms-input-placeholder {
+        @content;
+    }
+    &::placeholder {
+        @content;
+    }
+}
+
+@mixin screen-min($size) {
+    @media (min-width: map-get($media-breakpoints, $size)) {
+        @content;
+    }
+}
+
+@function getBreakpoint($breakpoint) {
+    @return if($breakpoint == xs, '', -#{$breakpoint});
+}
+
+@mixin screen-min-nudger($size) {
+    $findBreakpoint: getBreakpoint($size);
+    @if $findBreakpoint != '' {
+        @media (min-width: map-get($media-breakpoints, $size)) {
+            @content;
+        }
+    } @else {
+        @content;
+    }
+}

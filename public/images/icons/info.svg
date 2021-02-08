@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_55" data-name="Group 55" transform="translate(-269 -13)">
+    <rect id="Background" width="20" height="20" transform="translate(269 13)" fill="none"/>
+    <path id="Recipe_Information_Icon" data-name="Recipe Information Icon" d="M-3.562-4.429a.87.87,0,0,0-.938.781v1.866A.87.87,0,0,0-3.562-1H3.562A.87.87,0,0,0,4.5-1.781V-3.647a.87.87,0,0,0-.938-.781H2.625v-8.29a.87.87,0,0,0-.937-.781h-5.25a.87.87,0,0,0-.938.781v1.866a.87.87,0,0,0,.938.781h.937v5.643ZM0-21a3.132,3.132,0,0,0-3.375,2.813A3.132,3.132,0,0,0,0-15.375a3.132,3.132,0,0,0,3.375-2.812A3.133,3.133,0,0,0,0-21Z" transform="translate(279.5 34)" fill="#367da1"/>
+  </g>
+</svg>

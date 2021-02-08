@@ -1,0 +1,22 @@
+<div id="add-meal-interface">
+    <div id="find-food">
+        <header class="main-heading">
+            <h2>Add {{mealType}}</h2>
+            <hr>
+        </header>
+
+        <div class="back-btn-wrapper">
+            <button id="add-meal-interface-back" type="button" class="btn-tertiary back-btn">Back to meal plan</button>
+        </div>
+
+        <div id="food-item-search-container" role="combobox" aria-haspopup="listbox" aria-owns="food-listbox" id="">
+            <label class="sr-only">Find {{mealType}}</label>
+            <input id="food-item-search" class="input-box search" autocomplete="off" type="text" placeholder="Find {{mealType}}" aria-controls="food-listbox" aria-autocomplete="list">
+        </div>
+        
+        <div class="foods-list">
+            <div class="recipe-cards"></div>
+            <div class="pagination-container"></div>
+        </div>
+    </div>
+</div>

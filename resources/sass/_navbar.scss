@@ -1,0 +1,133 @@
+.nav-header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $primary-500;
+    padding: 0 1rem;
+    height: 50px;
+
+    a {
+        color: $primary-100;
+    }
+
+    .sidenav-icon {
+        display: none;
+    }
+
+    .nav-menu-icon {
+        height: 32px;
+        width: 32px;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        background-position: center;
+        cursor: pointer;
+
+        &:focus {
+            outline: transparent;
+            border: 2px solid $primary-100;
+            border-radius: $border-radius;
+        }
+    }
+
+    .hamburger-icon {
+        background-image: url(../images/icons/hamburger.svg);
+    }
+
+    .user-image {
+        display: none;
+        height: 30px;
+    }
+}
+
+.main-navigation {
+    background-color: $primary-400;
+    color: #fff;
+    grid-area: nav;
+    overflow: hidden;
+
+    ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        a {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            height: 60px;
+            padding-left: 1rem;
+            color: #fff;
+            cursor: pointer;
+
+            &:hover,
+            &:focus {
+                background-color: $primary-500;
+                text-decoration: none;
+                color: #fff;
+                cursor: pointer;
+                outline: none;
+
+                &:before {
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    width: 8px;
+                    height: 60px;
+                    background-color: $primary-100;
+                }
+            }
+        }
+
+        img {
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.add-nav-dropdown {
+    grid-template-rows: 50px 180px 1fr !important;
+}
+
+.no-sidebar {
+    grid-template-columns: 0px 1fr !important;
+}
+
+@include screen-min(sm) {
+    .nav-header {
+        padding: 0 1.5rem;
+    }
+}
+
+@include screen-min(md) {
+    .nav-header {
+        height: 66px;
+        width: 100%;
+        box-sizing: border-box;
+
+        .sidenav-icon {
+            display: block;
+            background-image: url(../images/icons/sidebar-icon.svg);
+        }
+
+        .user-image {
+            display: block;
+        }
+
+        .hamburger-icon {
+            display: none;
+        }
+    }
+
+    .main-navigation {
+        position: relative;
+        display: flex;
+        flex-grow: 1;
+        overflow: hidden;
+    }
+}

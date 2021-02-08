@@ -1,0 +1,13 @@
+<a class="recipe-card card" href="/recipes/{{ id }}">
+    <div class="recipe-image">
+        {{#if image}}
+            <img src="/storage/{{image}}" alt="Recipe Image">
+        {{/if}}
+    </div>
+    <div class="card-content">
+        <h3 title="{{name}}">{{name}}</h3>
+        <small class="recipe-time">{{ time }}</small>
+    </div>
+</a>
+
+

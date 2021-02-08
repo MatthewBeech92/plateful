@@ -1,0 +1,13 @@
+<a class="recipe-card card" data-food-type="{{food_type}}" data-food-id="{{id}}"> 
+    <div class="recipe-image">
+        {{#if image}}
+            <img src="/storage/{{image}}" alt="Recipe Image">
+        {{/if}}
+    </div>
+    <div class="card-content">
+        <h3 title="{{name}}">{{name}}</h3>
+        <small class="recipe-calories">{{calories}}kcal</small>
+    </div>
+</a>
+
+

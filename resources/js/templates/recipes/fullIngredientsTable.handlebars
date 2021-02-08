@@ -1,0 +1,26 @@
+<h3>Ingredient List</h3>
+
+<table id="ingredient-list-table">
+    <thead>
+        <th scope="col">Ingredient</th>
+        <th scope="col">Amount</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="ingredient-name">
+                    {{name}} - {{brand}}
+                </div>
+            </td>
+            <td class="td-input">
+                <div class="recipe-amount" data-metric="{{metric}}">
+                    <input type="text"  class="ingredient-amount-input"
+                        name="ingredient[{{id}}]">
+                </div>
+            </td>
+            <td class="td-cross">
+                <button type="button" class="cross-icon"></button>
+            </td>
+        </tr>
+    </tbody>
+</table>

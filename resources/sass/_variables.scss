@@ -1,0 +1,74 @@
+// Typography
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+// Colors
+$primary-100: #b8e4f9;
+$primary-200: #7dc4e8;
+$primary-300: #367da1;
+$primary-400: #204a60;
+$primary-500: #132d39;
+
+$neutral-100: #e7ecef;
+$neutral-200: #b7c5cc;
+$neutral-300: #6e8591;
+$neutral-400: #4f5d64;
+$neutral-500: #2e3538;
+
+$success-100: #60c582;
+$success-200: #4b9e66;
+$success-300: #3c8351;
+$success-400: #306243;
+$success-500: #244732;
+
+$error-100: #e18672;
+$error-200: #da6249;
+$error-300: #bb3f27;
+$error-400: #7b2919;
+$error-500: #47190f;
+
+$warning-100: #f1dc84;
+$warning-200: #f5d459;
+$warning-300: #e9c142;
+$warning-400: #8b7324;
+$warning-500: #554612;
+
+$white: #ffffff;
+$near-white: #f8f8f8;
+
+$secondary: #204a60;
+$mid-blue: #367da1;
+$light-blue: #b8e4f9;
+$red: hsl(5, 100%, 85%);
+$darkred: hsl(2, 98%, 21%);
+
+$border-radius: 0.25rem;
+$box-shadow-20: 0px 0px 4px rgba(19, 45, 57, 0.2);
+$box-shadow-shallow: 0px 0px 2px rgba(19, 45, 57, 0.6);
+$box-shadow: 0px 0px 4px rgba(19, 45, 57, 0.6);
+$box-shadow-hover: 0px 0px 6px rgba(19, 45, 57, 1);
+
+$media-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1440px,
+    xxl: 1920px,
+);
+
+$spacing: (
+    1: 0.25rem,
+    2: 0.5rem,
+    3: 0.75rem,
+    4: 1rem,
+    5: 1.5rem,
+    6: 2rem,
+    7: 3rem,
+);
+
+$directions: (
+    t: top,
+    r: right,
+    b: bottom,
+    l: left,
+);

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="23" viewBox="0 0 28 23">
+  <defs>
+    <filter id="utensils" x="3.5" y="0" width="21" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_265" data-name="Group 265" transform="translate(-436 -286.5)">
+    <rect id="Rectangle_780" data-name="Rectangle 780" width="28" height="20" transform="translate(436 287)" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, 436, 286.5)" filter="url(#utensils)">
+      <path id="utensils-2" data-name="utensils" d="M9-18.656c-.138-.793-1.964-.8-2.077.043V-13.1c-.052.133-.653.125-.692,0-.061-.988-.338-5.434-.346-5.539-.138-.812-1.93-.812-2.073,0,0,.1-.286,4.551-.346,5.539-.039.125-.636.133-.692,0v-5.516C2.657-19.461.835-19.449.7-18.656A43.234,43.234,0,0,0,0-13.625,4.143,4.143,0,0,0,2.981-9.539l-.558,9.3A.988.988,0,0,0,3.462.75H6.231A.988.988,0,0,0,7.269-.238l-.558-9.3a4.144,4.144,0,0,0,2.981-4.086A43.364,43.364,0,0,0,9-18.656ZM14.153-7.5,13.5-.266A.981.981,0,0,0,14.538.75h2.423A.989.989,0,0,0,18-.188V-18.312a.992.992,0,0,0-1.038-.937C13.392-19.25,7.382-12.277,14.153-7.5Z" transform="translate(5 19.75)" fill="#8fbbaf"/>
+    </g>
+  </g>
+</svg>

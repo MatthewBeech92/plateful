@@ -1,0 +1,103 @@
+#landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: url(../images/cooking.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+
+    .landing-background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        padding: 1.5rem 1rem;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: rgba($color: #fff, $alpha: 0.85);
+
+        .auth-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+
+                img {
+                    margin-bottom: 1.5rem;
+                }
+
+                h1 {
+                    font-size: 1.424rem;
+                    color: #132d39;
+                    text-align: center;
+                }
+            }
+
+            form {
+                max-width: 432px;
+                width: 100%;
+
+                button {
+                    width: 100%;
+                    margin-top: 1.5rem;
+                }
+
+                button:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            #register-success {
+                display: none;
+                margin-top: 1rem;
+                border-radius: $border-radius;
+            }
+        }
+    }
+}
+
+@include screen-min(sm) {
+    #landing-container {
+        padding: 2rem;
+
+        .landing-background {
+            border-radius: $border-radius;
+            box-shadow: 0px 0px 6px #132d39;
+            flex: none;
+            padding: 2rem;
+            max-width: 496px;
+        }
+    }
+
+    .landing-form-buttons {
+        display: flex;
+        justify-content: space-between;
+
+        button,
+        input {
+            width: 204px !important;
+        }
+    }
+}
+
+@include screen-min(xl) {
+    .landing-container {
+        background-position: center;
+    }
+}
+
+@include screen-min(xxl) {
+    .landing-container {
+        background-position: center;
+    }
+}

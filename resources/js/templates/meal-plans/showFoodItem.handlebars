@@ -1,0 +1,87 @@
+<div id="meal-planner-recipe-page">
+    <div class="back-btn-wrapper">
+        <button type="button" class="btn-tertiary back back-btn">Back to Recipes List</button> 
+    </div>
+
+    <div id="recipe-info" class="food-container" data-food-id={{id}} data-food-type="{{food_type}}">
+        <div class="recipe-container"> 
+            <div class="header-container">
+                <header>
+                    <h2 title="{{name}}">{{name}}</h2>
+                    <h3 class="recipe-time">{{time}}</h3>
+                </header>
+
+                <div class="recipe-image-container">
+                    <div class="recipe-image">
+                        {{#if image}}
+                            <img src="/storage/{{image}}" alt="Recipe Image">
+                        {{/if}}
+                    </div>
+
+                    <button id="add-to-meal-plan-btn" class="btn btn-primary">Add to Meal Plan</button>
+                </div>
+
+                {{#if description}}
+                    <div class="recipe-description">
+                        {{description}}
+                    </div>
+                {{/if}}
+            </div>
+            
+            <hr>
+
+            <div class="ingredient-info">
+                <div id="nutrition-facts">
+                    <h2>Nutrition Facts</h2>
+                    <table class="two-column-table">
+                        <tbody>
+                            <tr>
+                                <td>Calories</td>
+                                <td id="calorie-data">{{calories}}kcal</td>
+                            </tr>
+                            <tr>
+                                <td>Fat</td>
+                                <td id="fat-data">{{fat}}g</td>
+                            </tr>
+                            <tr>
+                                <td>Carbohydrates</td>
+                                <td id="carb-data">{{carbs}}g</td>
+                            </tr>
+                            <tr>
+                                <td>Fibre</td>
+                                <td id="fibre-data">{{fibre}}g</td>
+                            </tr>
+                            <tr>
+                                <td>Protein</td>
+                                <td id="protein-data">{{protein}}g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="recipe-ingredients">
+                    <h2>Ingredients</h2>
+                    <table class="two-column-table">
+                        <tbody>
+                            {{#each ingredients}}
+                                <tr>
+                                    <td>{{name}}</td>
+                                    <td>{{pivot.amount}}g</td>
+                                </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <hr>
+
+            {{#if instructions}}
+                <div class="recipe-instructions">
+                    <h2>Instructions</h2>
+                    <p>{{{instructions}}}</p>
+                </div>
+            {{/if}}
+        </div>
+    </div>
+</div>

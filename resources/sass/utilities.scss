@@ -1,0 +1,78 @@
+//Generate responsive margin and padding spacing utility
+
+@each $breakpoint in map-keys($media-breakpoints) {
+    @include screen-min-nudger($breakpoint) {
+        $breakpointAbbrev: getBreakpoint($breakpoint);
+
+        @each $spaceInitial, $spaceAttribute in (m: margin, p: padding) {
+            @each $num, $space in $spacing {
+                .#{$spaceInitial}#{$breakpointAbbrev}-#{$num} {
+                    #{$spaceAttribute}: $space;
+                }
+                @each $directionInital, $direction in $directions {
+                    .#{$spaceInitial}#{$directionInital}#{$breakpointAbbrev}-#{$num} {
+                        #{$spaceAttribute}-#{$direction}: $space;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column-grow {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.flex-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.center-text {
+    margin: 0 auto;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.t-a-right {
+    text-align: right;
+}
+
+.loading-spinner img {
+    height: 64px !important;
+    width: 64px !important;
+    z-index: 1;
+    display: none;
+}
